@@ -1,0 +1,13 @@
+[NewRequest]
+Subject = "CN=li BitLocker DRA"
+KeyLength = 2048
+Exportable = TRUE 
+ExportableEncrypted = FALSE
+KeySpec = "AT_KEYEXCHANGE" 
+KeyUsage = "CERT_KEY_ENCIPHERMENT_KEY_USAGE"
+KeyUsageProperty = "NCRYPT_ALLOW_DECRYPT_FLAG"
+RequestType = Cert
+SMIME = FALSE
+Hashalgorithm = sha512
+[EnhancedKeyUsageExtension]
+OID=1.3.6.1.4.1.311.67.1.2
